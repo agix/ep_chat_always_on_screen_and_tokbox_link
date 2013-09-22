@@ -11,7 +11,14 @@ var chat_always_on_screen_and_tokbox_link = {
     chat.stickToScreen(true);
     $("#chatinput").height("90px");
     $("#chattext").css("bottom", "100px");
-    
+    $("#chatinputbox > form").html("");
+    var textarea = '<textarea id="chatinput" style="width:185px;height:90px;padding-left:2px;padding-top:2px;" placeholder="Type Here to Chat"></textarea>';
+    $("#chatinputbox > form").html(textarea);
+    $("#chatinput").keyup(function(e){
+      if(e.which == 13){
+        chat.send();
+      }
+    });
 
     var tokbox_link = clientVars.tokbox_link;
     if(tokbox_link){
