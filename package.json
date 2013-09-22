@@ -1,0 +1,17 @@
+{
+  "name": "ep_chat_always_on_screen_and_tokbox_link",
+  "description": "Chat on screen and link to tokbox based on URL param",
+  "version": "0.0.1",
+  "author": {
+    "name": "John McLear",
+    "email": "john@mclear.co.uk",
+    "url": "http://mclear.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnmclear/ep_chat_always_on_screen_and_tokbox_link"
+  },
+  "contributors": [],
+  "_id": "ep_chat_always_on_screen_and_tokbox_link@0.0.1",
+  "_from": "ep_chat_always_on_screen_and_tokbox_link@"
+}

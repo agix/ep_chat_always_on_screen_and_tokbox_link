@@ -1,0 +1,14 @@
+{
+  "parts":[
+    {
+      "name": "chat_always_on_screen_and_tokbox_link",
+      "hooks":{
+        "clientVars":"ep_chat_always_on_screen_and_tokbox_link/index:clientVars",
+        "eejsBlock_scripts":"ep_chat_always_on_screen_and_tokbox_link/index:eejsBlock_scripts"
+      },
+      "client_hooks": {
+        "aceInitialized": "ep_chat_always_on_screen_and_tokbox_link/static/js/init"
+      }
+    }
+  ]
+}
