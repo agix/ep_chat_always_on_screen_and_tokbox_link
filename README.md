@@ -8,5 +8,5 @@ Setting the tokbox URL
 ==================
 Paste the below into your settings changing the URL
 
-"ep_chat_always_on_screen_and_tobox_link": "http://linktotokbox.com/whabtever"
+"ep_tokbox_link": "http://linktotokbox.com/whabtever"
 
